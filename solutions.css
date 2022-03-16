@@ -124,16 +124,16 @@
 }
 
 /* Esercizio 12 */
-.ex-12-bottom:hover .ex-12-bottom-white {
+.ex-12-button:hover .ex-12-bottom-white {
   animation: moveBtn-bottom 1s linear;
 }
 
-.ex-12-bottom:hover .ex-12-top-white {
+.ex-12-button:hover .ex-12-top-white {
   animation: moveBtn-top 1s linear;
 }
 
 @keyframes moveBtn-bottom {
-  0%{
+  10%{
     right: 20%;
   }
   50%{
@@ -145,7 +145,7 @@
 }
 
 @keyframes moveBtn-top {
-  0%{
+  10%{
     left: 20%;
   }
   50%{
