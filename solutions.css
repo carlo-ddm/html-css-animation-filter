@@ -53,7 +53,7 @@
   transition: all 1s;
 }
 
-.ex-6-img {
+.ex-6-img:hover {
   filter: grayscale(100%);
 }
 
@@ -120,5 +120,38 @@
   }
   100% {
     transform: rotate(0);
+  }
+}
+
+/* Esercizio 12 */
+.ex-12-bottom:hover .ex-12-bottom-white {
+  animation: moveBtn-bottom 1s linear;
+}
+
+.ex-12-bottom:hover .ex-12-top-white {
+  animation: moveBtn-top 1s linear;
+}
+
+@keyframes moveBtn-bottom {
+  0%{
+    right: 20%;
+  }
+  50%{
+    right: 50%;
+  }
+  100%{
+    right: 20%;
+  }
+}
+
+@keyframes moveBtn-top {
+  0%{
+    left: 20%;
+  }
+  50%{
+    left: 50%;
+  }
+  100%{
+    left: 20%;
   }
 }
