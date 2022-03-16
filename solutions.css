@@ -105,3 +105,20 @@
     transform: rotate(-360deg);
   }
 }
+
+/* Esercizio 11 */
+.ex-11-icon:hover {
+  animation: loading 2s linear;
+}
+
+@keyframes loading {
+  0%{
+    transform: rotate(0);
+  }
+  90%{
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
