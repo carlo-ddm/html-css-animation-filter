@@ -87,3 +87,21 @@
   border-radius: 20px;
   transform: scale(1.5);
 }
+
+/* Esercizio 10 */
+.ex-10-icon {
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: reverse;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
