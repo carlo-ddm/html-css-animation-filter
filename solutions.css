@@ -146,7 +146,7 @@
 
 @keyframes moveBtn-top {
   10%{
-    left: 20%;
+    left: 10%;
   }
   50%{
     left: 50%;
@@ -155,3 +155,5 @@
     left: 20%;
   }
 }
+
+/* Esercizio 13 (da completare) */
